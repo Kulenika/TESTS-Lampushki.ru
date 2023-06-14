@@ -1,7 +1,4 @@
 import time
-
-from selenium.webdriver.common.by import By
-
 from Pages.Prozhivanie import ProzhivaniePage
 
 def test_prozhivanie(browser):
