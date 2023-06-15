@@ -30,7 +30,7 @@ def test_lampushki(browser):
     lamp_page.menu_contacts.exist()
     lamp_page.menu_search.exist()
 
-    lamp_page.menu_btn1.click()  #нет страницы, только вкладка меню
+    lamp_page.menu_btn1.click()
     time.sleep(3)
     lamp_page.menu_btn2.click()
     time.sleep(3)

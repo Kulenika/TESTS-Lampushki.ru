@@ -171,14 +171,7 @@ def test_booking(browser):
     childs_reserv = childs_tag.string.strip()
     print(childs_reserv)
 
-    html = '<td data-label="Стоимость " id="reservation-cost" lang_data_label="COST"><span>16&nbsp;800</span><span class="ea-font-rouble">₽</span></td>'
-    soup = BeautifulSoup(html, 'html.parser')
-    cost_tag = soup.find('td', {'id': 'reservation-cost'})
-    cost_reserv = cost_tag.find('span').text
-    if cost_reserv == '16 800':
-        print('Стоимость - 16 800')
-    else:
-        print('False')
+
 
 
 
